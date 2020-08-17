@@ -1,0 +1,97 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.simple-result{
+    display: none;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.lyrics-name{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #f9f9f9;
+}
+.single-lyrics{
+    display: none;
+    text-align: center;
+}
+
+.album-cover{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px dashed greenyellow;
+}
+.artist-name{
+	border: 2px solid #28a745;
+	border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.fency-button{
+    position: absolute;
+    background: #28a745;
+    width: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    top: 50%;
+    left: 25%;
+    border: 1px solid #28a745;
+    box-shadow: 2px 2px 10px rgba(#777777, .5);
+    transition: all .5s ease-in-out;
+}
+.fency-button:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+    color: #FCFCFC;
+    transition: all .3s ease-in-out;
+    }
+  .not-found{
+      color: red;
+      text-align: center;
+  }
+
