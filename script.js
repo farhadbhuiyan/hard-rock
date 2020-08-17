@@ -55,7 +55,7 @@ function searchSongs() {
         <div class="single-result">
               <div class=" row align-items-center my-3 p-3">
                   <div class="col-md-3">
-                      <img class="album-cover" src="${data.data[i].album.cover}" alt="" srcset="">
+                      <img class="album-cover" src="${data.data[i].album.cover_small}" alt="" srcset="">
                       <a class="fency-button" href="${data.data[i].artist.link}" target="_blank">
                       <i class="fas fa-headphones"></i>
                         Listen
